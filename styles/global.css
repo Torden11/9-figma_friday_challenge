@@ -1,0 +1,29 @@
+body,
+body * {
+
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color:#02577A;    ;
+}
+    
+
+:root {
+
+    /* custom properties / variables */
+    --main-color: #E5E5E5;
+    --secondary-color:#F7F6FF;
+}
+
+.bg-main {
+    background-color: var(--main-color);
+}
+
+.bg-main > .bg-secondary {
+    background-color: var(--secondary-color);
+}
